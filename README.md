@@ -28,8 +28,8 @@ This project is a high-performance **FastAPI service** designed to analyze marke
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd fastapi-market-analysis
+git clone https://github.com/Bharathkumar1522/market-analysis-api.git
+cd market-analysis-api
 ```
 
 ### 2. Create a Virtual Environment
@@ -85,7 +85,7 @@ If you are testing the API on the **deployed environment**, please use the follo
 ### Sample Request (cURL)
 ```bash
 curl -X 'GET' \
-  'https://<deployed-url>/analyze/technology' \
+  'https://market-analysis-api-j5k6.onrender.com/analyze/agriculture' \
   -H 'accept: application/json' \
   -H 'X-API-Key: market-analysis-eval-key-2025'
 ```
