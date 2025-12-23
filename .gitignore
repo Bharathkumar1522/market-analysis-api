@@ -1,0 +1,18 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# IntelliJ/VSCode
+.idea/
+.vscode/
+
+# Project specific
+error_debug.txt
+test_services.py
+test_gemini.py
+test_gemini_models.py
