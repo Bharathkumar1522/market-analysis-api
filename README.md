@@ -1,4 +1,4 @@
-# Trade Opportunities API 📊
+# Market Analysis API 📊
 
 ## 📖 Project Overview
 This project is a high-performance **FastAPI service** designed to analyze market data and generate trade opportunity insights for specific sectors in India. It leverages **Google's Gemini AI** for intelligent market analysis and **DuckDuckGo** for real-time data collection, providing structured reports in Markdown format.
