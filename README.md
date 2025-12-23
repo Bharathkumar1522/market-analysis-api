@@ -72,6 +72,8 @@ The API will be available at: `http://localhost:8000`
 ### 📚 API Documentation
 Interactive Swagger UI documentation is available at:
 *   **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
+*   **Deployed Docs**: [https://market-analysis-api-j5k6.onrender.com/docs](https://market-analysis-api-j5k6.onrender.com/docs)
+*   
 
 
 #### ⚡ Endpoint Cheatsheet
@@ -79,6 +81,7 @@ Interactive Swagger UI documentation is available at:
 | Method | Endpoint | Query Params | Description |
 | :--- | :--- | :--- | :--- |
 | `GET` | `/analyze/{sector}` | `download=true` (optional) | Returns analysis JSON or downloads `.md` report |
+| `GET` | `/docs` | - | API Documentation |
 | `GET` | `/health` | - | Health check |
 
 
