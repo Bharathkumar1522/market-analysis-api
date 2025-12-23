@@ -13,6 +13,11 @@ app = FastAPI(
     description="API for analyzing trade opportunities using AI."
 )
 
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+
 # Security: CORS
 app.add_middleware(
     CORSMiddleware,
@@ -37,7 +42,3 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
 
-
-@app.get("/health")
-def health():
-    return {"status": "ok"}
